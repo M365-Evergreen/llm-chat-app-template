@@ -34,7 +34,7 @@
 		"cf-typegen": "wrangler types",
 		"check": "tsc --noEmit && wrangler deploy --dry-run",
 		"deploy": "wrangler deploy",
-		"build": "pnpm build",
+		"build": "npm run build",
 		"dev": "wrangler dev",
 		"e2e:dev": "wrangler dev --config wrangler.e2e.jsonc",
 		"start": "wrangler dev",
